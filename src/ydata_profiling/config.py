@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple, Union
 
 import yaml
-from pydantic import BaseModel, BaseSettings, Field, PrivateAttr
+from pydantic.v1 import BaseModel, BaseSettings, Field, PrivateAttr
 
 
 def _merge_dictionaries(dict1: dict, dict2: dict) -> dict:
